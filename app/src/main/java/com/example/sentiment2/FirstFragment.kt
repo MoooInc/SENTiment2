@@ -71,6 +71,9 @@ class FirstFragment : Fragment() {
                 toast.show()
             }
         }
+        binding.landingForgotPassword.setOnClickListener{
+            findNavController().navigate(R.id.action_FirstFragment_to_resetPasswordFragment)
+        }
 
     }
 

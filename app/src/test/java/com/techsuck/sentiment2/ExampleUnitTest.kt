@@ -1,4 +1,4 @@
-package com.example.sentiment2
+package com.techsuck.sentiment2
 
 import org.junit.Test
 

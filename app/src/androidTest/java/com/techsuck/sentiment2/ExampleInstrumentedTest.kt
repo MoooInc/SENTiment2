@@ -1,4 +1,4 @@
-package com.example.sentiment2
+package com.techsuck.sentiment2
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

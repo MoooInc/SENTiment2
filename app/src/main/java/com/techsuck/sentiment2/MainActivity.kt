@@ -1,4 +1,4 @@
-package com.example.sentiment2
+package com.techsuck.sentiment2
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
@@ -9,7 +9,8 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
-import com.example.sentiment2.databinding.ActivityMainBinding
+import com.techsuck.sentiment2.R
+import com.techsuck.sentiment2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

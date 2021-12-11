@@ -71,7 +71,9 @@ class FirstFragment : Fragment() {
                 toast.show()
             }
         }
-
+        binding.landingRegister.setOnClickListener{
+            findNavController().navigate(R.id.action_FirstFragment_to_signupFragment)
+        }
     }
 
     override fun onDestroyView() {

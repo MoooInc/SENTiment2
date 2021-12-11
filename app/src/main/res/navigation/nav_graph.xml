@@ -17,6 +17,9 @@
         <action
             android:id="@+id/action_FirstFragment_to_signupFragment"
             app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_resetPasswordFragment"
+            app:destination="@id/navigation6" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -37,4 +40,34 @@
             android:id="@+id/action_signupFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+=======
+    <navigation android:id="@+id/navigation6"
+        app:startDestination="@id/resetPasswordFragment">
+        <fragment
+            android:id="@+id/resetPasswordFragment"
+            android:name="com.example.sentiment2.ResetPasswordFragment"
+            android:label="fragment_reset_password"
+            tools:layout="@layout/fragment_reset_password" >
+            <action
+                android:id="@+id/action_resetPasswordFragment_to_resetPassword2Fragment22"
+                app:destination="@id/resetPassword2Fragment2" />
+        </fragment>
+        <fragment
+            android:id="@+id/resetPassword2Fragment2"
+            android:name="com.example.sentiment2.ResetPassword2Fragment"
+            android:label="fragment_reset_password2"
+            tools:layout="@layout/fragment_reset_password2" >
+            <action
+                android:id="@+id/action_resetPassword2Fragment2_to_resetPassword3Fragment"
+                app:destination="@id/resetPassword3Fragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/resetPassword3Fragment"
+            android:name="com.example.sentiment2.ResetPassword3Fragment"
+            android:label="fragment_reset_password3"
+            tools:layout="@layout/fragment_reset_password3" />
+        <action
+            android:id="@+id/action_global_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </navigation>
 </navigation>

@@ -74,6 +74,9 @@ class FirstFragment : Fragment() {
         binding.landingRegister.setOnClickListener{
             findNavController().navigate(R.id.action_FirstFragment_to_signupFragment)
         }
+        binding.landingForgotPassword.setOnClickListener{
+            findNavController().navigate(R.id.action_FirstFragment_to_resetPasswordFragment)
+        }
     }
 
     override fun onDestroyView() {
